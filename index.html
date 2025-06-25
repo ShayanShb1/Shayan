@@ -1,36 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="fa" dir="rtl">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Shayan</title>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
-      background: linear-gradient(135deg, #1e1e2f, #2a2a40);
-      color: white;
-      font-family: Arial, sans-serif;
+      margin: 0;
+      font-family: 'Vazirmatn', sans-serif;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: #ffffff;
       text-align: center;
-      padding-top: 50px;
+      padding: 50px 20px;
     }
     img {
-      border-radius: 20px;
-      box-shadow: 0 10px 20px rgba(0,0,0,0.4);
-      width: 250px;
-      height: auto;
-      margin-top: 20px;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      margin-bottom: 20px;
     }
     h1 {
       font-size: 2.5rem;
+      margin: 0;
     }
     p {
       font-size: 1.2rem;
-      color: #ccc;
+      margin: 10px 0 30px;
+    }
+    .social {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .social a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+      background: rgba(255,255,255,0.1);
+      padding: 10px 20px;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+    .social a:hover {
+      background: rgba(255,255,255,0.3);
     }
   </style>
 </head>
 <body>
-  <h1>سلام، من شایانم 👋</h1>
-  <p>به صفحه من خوش اومدی!</p>
-  <img src="profile.jpg" alt="Shayan's photo" />
+  <img src="profile.jpg" alt="Profile Picture" />
+  <h1>Shayan</h1>
+  <p>Welcome to my personal page</p>
+  <div class="social">
+    <a href="https://instagram.com">Instagram</a>
+    <a href="https://t.me">Telegram</a>
+    <a href="https://github.com/ShayanShb1">GitHub</a>
+  </div>
 </body>
 </html>
