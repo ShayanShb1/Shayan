@@ -4,35 +4,55 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shayan Profile</title>
-  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <style>
     body {
       font-family: 'Vazirmatn', sans-serif;
-      background: linear-gradient(135deg, #e0f7fa, #80deea);
+      background: linear-gradient(to right, #f6d365, #fda085);
       text-align: center;
-      padding: 50px;
+      padding: 50px 20px;
+      margin: 0;
     }
     img {
-      width: 250px;
+      width: 280px;
+      max-width: 100%;
       height: auto;
-      margin-bottom: 20px;
+      margin-bottom: 25px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
     }
     h1 {
-      color: #00796b;
-      font-size: 32px;
+      font-size: 36px;
+      color: #4e342e;
+      margin-bottom: 30px;
+    }
+    .social-links {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
     }
     .social-links a {
-      display: inline-block;
-      margin: 10px;
-      padding: 10px 20px;
-      background-color: #0097a7;
-      color: white;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background-color: #ffffff;
+      color: #333;
       text-decoration: none;
-      border-radius: 12px;
-      transition: background-color 0.3s ease;
+      font-size: 18px;
+      padding: 12px 24px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease, background-color 0.3s ease;
     }
     .social-links a:hover {
-      background-color: #006064;
+      background-color: #ffe0b2;
+      transform: translateY(-3px);
+    }
+    .social-links i {
+      font-size: 22px;
+      color: #ff6f00;
     }
   </style>
 </head>
@@ -40,10 +60,10 @@
   <img src="profile.jpg" alt="Shayan's Photo">
   <h1>Shayan</h1>
   <div class="social-links">
-    <a href="https://instagram.com/Shayan__Shahrashoob" target="_blank">Instagram</a>
-    <a href="https://t.me/Shayan_Shb" target="_blank">Telegram</a>
-    <a href="https://wa.me/989216059307" target="_blank">WhatsApp</a>
-    <a href="tel:+989216059307">Call</a>
+    <a href="https://instagram.com/Shayan__Shahrashoob" target="_blank"><i class="fab fa-instagram"></i>Instagram</a>
+    <a href="https://t.me/Shayan_Shb" target="_blank"><i class="fab fa-telegram"></i>Telegram</a>
+    <a href="https://wa.me/989216059307" target="_blank"><i class="fab fa-whatsapp"></i>WhatsApp</a>
+    <a href="tel:+989216059307"><i class="fas fa-phone"></i>Call</a>
   </div>
 </body>
 </html>
